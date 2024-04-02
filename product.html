@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/product.html">Product</a>
+      <div class="dropdown">
+        <a class="dropbtn" href="#"
+          >Policy Setup<span class="icon">&#9660;</span></a
+        >
+      </div>
+      <a href="#">Parameters <span class="icon">&#9660;</span></a>
+      <a href="#">Application</a>
+      <a href="#">Receipt</a>
+      <a href="#">Accounting <span class="icon">&#9660;</span></a>
+      <a href="#">Customer Service</a>
+      <a href="#">Report<span class="icon">&#9660;</span></a>
+    </div>
+    <h1>Products</h1>
+    <button class="btn3">New Product</button>
+    <hr />
+    <div>
+      <label for="entries">Show:</label>
+      <select id="entries" onchange="showEntries(this.value)">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+      entries
+      <div class="Search">Search:<input type="text" /></div>
+    </div>
+    <br />
+    <br />
+    <table style="width: 100%">
+      <thead>
+        <tr>
+          <th>Charge Code</th>
+          <th>Priority</th>
+          <th>Priority</th>
+          <th>Priority</th>
+          <th>Priority</th>
+          <th>Priority</th>
+          <th>Priority</th>
+          <th>Priority</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sample Charge Code 1</td>
+          <td><input type="text" /></td>
+        </tr>
+
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    <p>Showing 1 of 1 entries</p>
+    
+    <div class="pagination">
+      <a href="#">Previous</a>
+      <button><a href="#">1</a></button>
+      <a href="#">Next</a>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/product.html">Product</a>
+      <div class="dropdown">
+        <a class="dropbtn" href="#"
+          >Policy Setup<span class="icon">&#9660;</span></a
+        >
+      </div>
+      <a href="#">Parameters <span class="icon">&#9660;</span></a>
+      <a href="#">Application</a>
+      <a href="#">Receipt</a>
+      <a href="#">Accounting <span class="icon">&#9660;</span></a>
+      <a href="#">Customer Service</a>
+      <a href="#">Report<span class="icon">&#9660;</span></a>
+    </div>
+
+    <h2>Create Allocation Priority</h2>
+    <hr />
+    <label for="product-name">Product Name:</label>
+    <div class="input-container flex">
+      <input type="text" id="product-name" name="product-name" />
+      <label for="allocation-type">Allocation Type:</label>
+      <select id="allocation-type" name="allocation-type">
+        <option value="Type A">Type A</option>
+        <option value="Type B">Type B</option>
+        <option value="Type C">Type C</option>
+      </select>
+    </div>
+
+    <div class="input-container">
+      <label for="allocation-priority">Allocation Priority:</label>
+      <input type="text" id="allocation-priority" name="allocation-priority" />
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <th>Charge Code</th>
+          <th>Priority</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Sample Charge Code 1</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Sample Charge Code 2</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Sample Charge Code 2</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Sample Charge Code 2</td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td>Sample Charge Code 2</td>
+          <td><input type="text" /></td>
+        </tr>
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+    <hr />
+    <button class="btn1">Save</button>
+    <button class="btn">Save & Request Approval</button>
+  </body>
+</html>
